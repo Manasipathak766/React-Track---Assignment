@@ -1,3 +1,10 @@
+import { BiVideoRecording } from "react-icons/bi";
+import { FaArrowLeft } from "react-icons/fa";
+import { IoCameraOutline } from "react-icons/io5";
+import { MdOutlinePlayCircle } from "react-icons/md";
+import { card1 } from "../images/Rectangle33.jpg";
+import { card2 } from "../images/Rectangle34.jpg";
+import { abd } from "../images/Rectangle_31.jpg";
 const Pages = () => {
     return (
       <div className="relative bg-gray1-100 w-full h-[1344px] overflow-hidden text-left text-17xl text-gray1-500 font-m3-body-small">
@@ -5,11 +12,7 @@ const Pages = () => {
           <div className="self-stretch flex flex-row items-start justify-start gap-[232px]">
             <div className="flex flex-row items-start justify-start gap-[20px]">
               <div className="rounded-md bg-whitesmoke-500 overflow-hidden flex flex-row items-start justify-start p-3">
-                <img
-                  className="relative w-[21.3px] h-[21.3px]"
-                  alt=""
-                  src="/vector.svg"
-                />
+              <FaArrowLeft />
               </div>
               <div className="w-[422px] flex flex-col items-start justify-start gap-[12px]">
                 <div className="flex flex-col items-start justify-start gap-[6px]">
@@ -45,60 +48,52 @@ const Pages = () => {
                   Search
                 </div>
               </div>
-              <div className="rounded-lg box-border w-[122.8px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-1 px-0 text-darkslategray-200 border-[1.4px] border-solid border-darkslategray-200">
+              <button className="cursor-pointer hover:shadow-lg hover:font-bold rounded-lg box-border w-[122.8px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-1 px-0 text-darkslategray-200 border-[1.4px] border-solid border-darkslategray-200">
                 <div className="flex flex-row items-center justify-center py-2.5 px-6">
-                  <div className="relative tracking-[0.1px] leading-[20px] font-medium">
+                  <div className="relative tracking-[0.1px] leading-[20px] text-xs">
                     Edit Camera
                   </div>
                 </div>
-              </div>
-              <div className="rounded-lg box-border w-[122.8px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-1 px-0 text-darkslategray-200 border-[1.4px] border-solid border-darkslategray-200">
+              </button>
+              <button className="cursor-pointer hover:shadow-lg hover:font-bold rounded-lg box-border w-[122.8px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-1 px-0 text-darkslategray-200 border-[1.4px] border-solid border-darkslategray-200">
                 <div className="flex flex-row items-center justify-center py-2.5 px-6">
-                  <div className="relative tracking-[0.1px] leading-[20px] font-medium">
+                  <div className="relative tracking-[0.1px] leading-[20px] text-xs">
                     Deactivate
                   </div>
                 </div>
-              </div>
-              <div className="rounded-lg box-border w-[122.8px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-1 px-0 text-red border-[1.4px] border-solid border-red">
+              </button>
+              <button className="cursor-pointer hover:shadow-lg hover:font-bold hover:text-red rounded-lg box-border w-[122.8px] overflow-hidden shrink-0 flex flex-col items-center justify-center py-1 px-0 text-black border-[1.4px] border-solid">
                 <div className="flex flex-row items-center justify-center py-2.5 px-6">
-                  <div className="relative tracking-[0.1px] leading-[20px] font-medium">
-                    Delete Camera
+                  <div className="relative tracking-[0.1px] leading-[20px] text-xs ">
+                    Delete
                   </div>
                 </div>
-              </div>
+              </button>
             </div>
           </div>
           <div className="relative rounded bg-white-high-emphasis box-border w-[1102px] h-[1047px] overflow-hidden shrink-0 text-xl text-black border-[1px] border-solid border-gray-divider">
             <div className="absolute top-[35px] left-[calc(50%_-_528px)] flex flex-col items-start justify-start">
               <div className="flex flex-col items-start justify-start gap-[32px]">
                 <div className="flex flex-row items-start justify-start gap-[12px] text-sm text-gray1-500">
-                  <div className="rounded-lg bg-whitesmoke-500 overflow-hidden flex flex-row items-center justify-center py-3 px-[22px] gap-[10px]">
-                    <img
-                      className="relative w-6 h-6 overflow-hidden shrink-0"
-                      alt=""
-                      src="/bxvideorecording.svg"
-                    />
+                  <button className="hover:shadow-lg cursor-pointer bg-whitesmoke-500 overflow-hidden flex flex-row items-center justify-center py-3 px-[22px] gap-[10px] rounded-full">
+                  <BiVideoRecording />
                     <div className="relative tracking-[0.5px] leading-[24px] font-medium">
                       View Recorded Videos
                     </div>
-                  </div>
-                  <div className="rounded-lg bg-whitesmoke-500 overflow-hidden flex flex-row items-center justify-center py-3 px-[22px] gap-[10px]">
-                    <img
-                      className="relative w-6 h-6 overflow-hidden shrink-0"
-                      alt=""
-                      src="/uimrefresh.svg"
-                    />
+                  </button>
+                  <button className="rounded-full hover:shadow-lg cursor-pointer bg-whitesmoke-500 overflow-hidden flex flex-row items-center justify-center py-3 px-[22px] gap-[10px]">
+                  <IoCameraOutline />
                     <div className="relative tracking-[0.5px] leading-[24px] font-medium">
                       Refetch Camera
                     </div>
-                  </div>
+                  </button>
                 </div>
-                <div className="flex flex-row items-start justify-start gap-[20px] text-smi text-white-high-emphasis">
+                <div className="flex flex-row items-start justify-start gap-[20px] text-sm">
                   <div className="relative w-[600px] h-[337px]">
                     <img
-                      className="absolute top-[0px] left-[0px] rounded-xl w-[600px] h-[337px] object-cover"
-                      alt=""
-                      src="/rectangle-31@2x.png"
+                      className=" absolute top-[0px] left-[0px] rounded w-[600px] h-[337px] "
+                      alt="Loading..."
+                      src={abd}
                     />
                     <div className="absolute top-[309px] left-[calc(50%_-_277px)] flex flex-row items-start justify-start gap-[360px]">
                       <div className="relative tracking-[0.1px] font-semibold">
@@ -115,11 +110,11 @@ const Pages = () => {
                         <div className="relative tracking-[0.1px] leading-[20px] font-semibold">
                           Camera Details
                         </div>
-                        <div className="rounded bg-limegreen-200 overflow-hidden flex flex-row items-center justify-center py-1 px-2 text-xs text-white-high-emphasis">
+                        <button className="rounded bg-limegreen-300 cursor-pointer hover:bg-limegreen-100 overflow-hidden flex flex-row items-center justify-center py-1 px-2 text-xs text-black">
                           <div className="relative tracking-[0.5px] font-semibold">
                             Active
                           </div>
-                        </div>
+                        </button>
                       </div>
                       <div className="flex flex-col items-start justify-start gap-[12px]">
                         <div className="flex flex-row items-center justify-start gap-[10px]">
@@ -176,7 +171,7 @@ const Pages = () => {
                           <div className="relative tracking-[0.1px] font-semibold">
                             RTSP/HLS URL:
                           </div>
-                          <div className="relative text-smi [text-decoration:underline] tracking-[0.1px] text-royalblue-100">
+                          <div className="relative cursor-pointer hover:text-blue-400 text-smi [text-decoration:underline] tracking-[0.1px] text-royalblue-100">
                             Copy URL
                           </div>
                         </div>
@@ -266,7 +261,7 @@ const Pages = () => {
                     <div className="relative tracking-[0.5px] leading-[24px] font-semibold">
                       Recent Recordings
                     </div>
-                    <div className="relative text-base [text-decoration:underline] tracking-[0.5px] leading-[24px] font-semibold text-darkslategray-100">
+                    <div className="relative cursor-pointer hover:shadow-md text-base [text-decoration:underline] tracking-[0.5px] leading-[24px] font-semibold text-darkslategray-100">
                       View All
                     </div>
                   </div>
@@ -275,14 +270,10 @@ const Pages = () => {
                       <div className="relative w-[230px] h-[167.7px]">
                         <img
                           className="absolute top-[0px] left-[0px] rounded-xl w-[230px] h-[167.7px] object-cover"
-                          alt=""
-                          src="/rectangle-311@2x.png"
+                          alt="Loading.."
+                          src={card1}
                         />
-                        <img
-                          className="absolute top-[68.3px] left-[99px] w-8 h-8"
-                          alt=""
-                          src="/group-32.svg"
-                        />
+                        <MdOutlinePlayCircle />
                         <div className="absolute top-[137.5px] left-[6px] w-0 h-0">
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-darkgray w-[218.6px] h-[5.6px] hidden" />
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-gray1-300 w-[16.3px] h-[5.6px] hidden" />
@@ -305,14 +296,10 @@ const Pages = () => {
                       <div className="relative w-[230px] h-[167.7px]">
                         <img
                           className="absolute top-[0px] left-[0px] rounded-xl w-[230px] h-[167.7px] object-cover"
-                          alt=""
+                          alt="Loading.."
                           src="/rectangle-312@2x.png"
                         />
-                        <img
-                          className="absolute top-[68.3px] left-[99px] w-8 h-8"
-                          alt=""
-                          src="/group-32.svg"
-                        />
+                        <MdOutlinePlayCircle />
                         <div className="absolute top-[137.5px] left-[6px] w-0 h-0">
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-darkgray w-[218.6px] h-[5.6px] hidden" />
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-gray1-300 w-[16.3px] h-[5.6px] hidden" />
@@ -335,14 +322,10 @@ const Pages = () => {
                       <div className="relative w-[230px] h-[167.7px]">
                         <img
                           className="absolute top-[0px] left-[0px] rounded-xl w-[230px] h-[167.7px] object-cover"
-                          alt=""
-                          src="/rectangle-313@2x.png"
+                          alt="Loading.."
+                          src={card1}
                         />
-                        <img
-                          className="absolute top-[68.3px] left-[99px] w-8 h-8"
-                          alt=""
-                          src="/group-32.svg"
-                        />
+                        <MdOutlinePlayCircle />
                         <div className="absolute top-[137.5px] left-[6px] w-0 h-0">
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-darkgray w-[218.6px] h-[5.6px] hidden" />
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-gray1-300 w-[16.3px] h-[5.6px] hidden" />
@@ -365,14 +348,10 @@ const Pages = () => {
                       <div className="relative w-[230px] h-[167.7px]">
                         <img
                           className="absolute top-[0px] left-[0px] rounded-xl w-[230px] h-[167.7px] object-cover"
-                          alt=""
-                          src="/rectangle-311@2x.png"
+                          alt="Loading.."
+                          src={card2}
                         />
-                        <img
-                          className="absolute top-[68.3px] left-[99px] w-8 h-8"
-                          alt=""
-                          src="/group-32.svg"
-                        />
+                        <MdOutlinePlayCircle />
                         <div className="absolute top-[137.5px] left-[6px] w-0 h-0">
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-darkgray w-[218.6px] h-[5.6px] hidden" />
                           <div className="absolute top-[14px] left-[0px] rounded-xl bg-gray1-300 w-[16.3px] h-[5.6px] hidden" />
