@@ -80,7 +80,7 @@ const Tables = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-col items-center justify-center gap-[16px] text-smi text-base-black">
-            <div className="self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
+            <div className="hover:shadow-lg cursor-pointer self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
               <div className="flex-1 rounded-lg flex flex-row items-center justify-center py-1 pr-3 pl-6">
                 <div className="flex flex-col items-start justify-center">
                   <div className="flex flex-row items-center justify-start">
@@ -156,8 +156,8 @@ const Tables = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
-              <div className="flex-1 rounded-lg flex flex-row items-center justify-center py-1 pr-3 pl-6">
+            <div className="hover:shadow-lg cursor-pointer self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
+              <div className=" flex-1 rounded-lg flex flex-row items-center justify-center py-1 pr-3 pl-6">
                 <div className="flex flex-col items-start justify-center">
                   <div className="flex flex-row items-center justify-start">
                     <div className="relative tracking-[-1px] leading-[28px] font-medium">
@@ -232,7 +232,7 @@ const Tables = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
+            <div className="hover:shadow-lg cursor-pointer self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
               <div className="flex-1 rounded-lg flex flex-row items-center justify-center py-1 pr-3 pl-6">
                 <div className="flex flex-col items-start justify-center">
                   <div className="flex flex-row items-center justify-start">
@@ -306,7 +306,7 @@ const Tables = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
+            <div className="hover:shadow-lg cursor-pointer self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
               <div className="flex-1 rounded-lg flex flex-row items-center justify-center py-1 pr-3 pl-6">
                 <div className="flex flex-col items-start justify-center">
                   <div className="flex flex-row items-center justify-start">
@@ -382,7 +382,7 @@ const Tables = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
+            <div className="hover:shadow-lg cursor-pointer self-stretch flex flex-row items-center justify-start pt-0 px-0 pb-2.5 gap-[6px] border-b-[1px] border-solid border-gray1-600">
               <div className="flex-1 rounded-lg flex flex-row items-center justify-center py-1 pr-3 pl-6">
                 <div className="flex flex-col items-start justify-center">
                   <div className="flex flex-row items-center justify-start">
