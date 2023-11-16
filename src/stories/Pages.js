@@ -183,8 +183,8 @@ const Pages = () => {
                   <div className="relative tracking-[0.5px] leading-[24px] font-semibold">
                     Camera Health and Alert
                   </div>
-                  <div className="flex flex-row items-start justify-start gap-[20px] text-sm text-gray1-500">
-                    <div className="relative rounded-md bg-white-high-emphasis box-border w-[338px] h-[162px] overflow-hidden shrink-0 text-smi border-[1px] border-solid border-gray-divider">
+                  <div className=" flex flex-row items-start justify-start gap-[20px] text-sm text-gray1-500">
+                    <div className="hover:shadow-lg cursor-pointer relative rounded-md bg-white-high-emphasis box-border w-[338px] h-[162px] overflow-hidden shrink-0 text-smi border-[1px] border-solid border-gray-divider">
                       <div className="absolute top-[calc(50%_-_63px)] left-[calc(50%_-_148px)] w-[297px] flex flex-col items-start justify-start">
                         <div className="flex flex-col items-start justify-start gap-[12px]">
                           <div className="relative text-sm tracking-[0.1px] font-semibold">
@@ -200,14 +200,14 @@ const Pages = () => {
                             <div className="relative tracking-[0.1px]">
                               Send an email to
                             </div>
-                            <div className="relative tracking-[0.1px] font-semibold text-gray1-500">
-                              email.com
+                            <div className="hover:shadow-sm relative tracking-[0.1px] font-semibold text-gray1-500">
+                              <a href="manasi.09@gmail.com">manasi.09@gmail.com</a  >
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="relative rounded-md bg-white-high-emphasis box-border w-[338px] h-[162px] overflow-hidden shrink-0 border-[1px] border-solid border-gray-divider">
+                    <div className="hover:shadow-lg cursor-pointer relative rounded-md bg-white-high-emphasis box-border w-[338px] h-[162px] overflow-hidden shrink-0 border-[1px] border-solid border-gray-divider">
                       <div className="absolute top-[calc(50%_-_65px)] left-[21px] w-[297px] flex flex-col items-start justify-start">
                         <div className="flex flex-col items-start justify-start gap-[12px]">
                           <div className="relative tracking-[0.1px] font-semibold">
@@ -228,7 +228,7 @@ const Pages = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="relative rounded-md bg-white-high-emphasis box-border w-[338px] h-[162px] overflow-hidden shrink-0 border-[1px] border-solid border-gray-divider">
+                    <div className="hover:shadow-lg cursor-pointer relative rounded-md bg-white-high-emphasis box-border w-[338px] h-[162px] overflow-hidden shrink-0 border-[1px] border-solid border-gray-divider">
                       <div className="absolute bottom-[11px] left-[calc(50%_-_148px)] w-[297px] flex flex-col items-start justify-start">
                         <div className="flex flex-col items-start justify-start gap-[12px]">
                           <div className="relative tracking-[0.1px] font-semibold">
